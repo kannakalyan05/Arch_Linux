@@ -174,4 +174,5 @@ exec --no-startup-id xrandr --output Virtual1 --mode 1920x1080
 exec --no-startup-id feh --bg-fill ~/.config/wallpapers/kakashi.jpg
 bindsym $mod+Shift+e exec ~/.config/rofi/powermenu/type-2/powermenu.sh
 bindsym $mod+d exec ~/.config/rofi/launchers/type-2/launcher.sh
+bindsym $mod+Print exec ~/.config/rofi/applets/bin/screenshot.sh
 
