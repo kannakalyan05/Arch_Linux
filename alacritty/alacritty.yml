@@ -1,5 +1,9 @@
 import:
-  - ~/.config/alacritty/colors.yml
+  - ~/.config/alacritty/colors.yaml
+
+    #window:
+    #opacity: 0.0
+
 
 font:
   normal:
@@ -15,8 +19,8 @@ font:
     family: JetBrainsMono Nerd Font
     style: Bold Italic
   size: 10
+    #theme: Gruvbox-Dark
 
-theme: Gruvbox-Dark
 colors:
   # Default colors
   primary:
@@ -46,3 +50,8 @@ colors:
     magenta: '#d3869b'
     cyan: '#8ec07c'
     white: '#ebdbb2'
+
+cursor:
+  style:
+    shape: Beam
+    thickness: 1.0
